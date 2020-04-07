@@ -1,0 +1,21 @@
+<template>
+  <require from="app.css"></require>
+
+      <h1 class="title">${message}</h1>
+      <input type="checkbox" checked.bind="checked">
+      <div class="container">
+        <div class="error panel ${checked ? 'fadeOut' : 'checked'}">
+    
+        </div>
+        <div class="success panel ${checked ? 'checked' : 'fadeOut'}">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Minima blanditiis necessitatibus repellat veritatis magni dolorum quibusdam. 
+              Maiores quam eaque quidem omnis minus natus. Maiores quia quos officia deserunt? 
+              Recusandae, repellendus!
+            </p>
+          </div>
+        </div>
+      </div>
+</template>
